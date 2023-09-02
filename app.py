@@ -9,7 +9,7 @@ st.markdown(f'''
 def finalised_model():
 	model=YOLO('best.pt')
 	return model
-user_image=st.file_uploader('Upload your file',type=['jpg','png','jpeg'])
+user_image=st.file_uploader('Please Upload your Xray file',type=['jpg','png','jpeg'])
 if st.button('Classify') and user_image is not None:
 	bytes_data=user_image.getvalue()
 	cv2_img=cv2.imdecode(np.frombuffer(bytes_data,np.uint8),cv2.IMREAD_COLOR)
