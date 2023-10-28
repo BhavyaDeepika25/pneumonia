@@ -23,7 +23,7 @@ glowing_text_style = '''
             70% { color: #FF69B4; } /* Hot Pink */
             80% { color: #ADFF2F; } /* Green Yellow */
             90% { color: #1E90FF; } /* Dodger Blue */
-            100% { color: #FF9933; } /* Saffron color */
+            
         }
     </style>
 '''
